@@ -2,32 +2,13 @@ source "https://rubygems.org"
 
 gem "rspec"
 gem "sinatra"
-gem "rspec"
+gem "rspec", group: 'test do'
 
 group :development do
   gem "pry"
 # or just type:
 # gem "pry", group: 'development'
 end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # source "https://rubygems.org"
 #
