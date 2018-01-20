@@ -3,7 +3,8 @@ source "https://rubygems.org"
 
 gem "rspec"
 gem "sinatra"
-gem "rspec", group: 'test do'
+group :test do
+  gem "rspec"
 
 group :development do
   gem "pry"
