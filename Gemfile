@@ -5,6 +5,8 @@ gem "sinatra"
 
 group :development do
   gem "pry"
+# or just type:
+# gem "pry", group: 'development'
 end
 
 
