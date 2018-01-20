@@ -4,7 +4,7 @@ gem "rspec"
 gem "sinatra"
 gem "pry", group: 'development'
 
-learn
+
 
 end
 
